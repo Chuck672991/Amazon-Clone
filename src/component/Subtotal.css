@@ -1,0 +1,38 @@
+/* SubTotal.css */
+
+.subtotal-main {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    width: 300px; /* Adjust the width as needed */
+  }
+  
+  .subtotal-title {
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+  }
+  
+  .subtotal_gift {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .subtotal_gift input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  .subtotal-button {
+    /* Add custom styling for your button here */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /* Style for the CurrencyFormat component is already handled by the component itself */
+  

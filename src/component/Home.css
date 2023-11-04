@@ -1,0 +1,26 @@
+.home{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; */
+    max-width:1400px; /* Set the image width to 100% of the container width */
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner-img {
+    width: 100%;
+
+  
+    height: auto; /* Allow the image's height to adjust proportionally */
+    mask-image: linear-gradient(to bottom ,rgba(0,0,0,1), rgba(0,0,0,0));
+    z-index: -1;
+    margin-bottom: -150px;
+}
+
+
+.product-container{
+   
+
+    background-color: #cbe2e6;
+  }

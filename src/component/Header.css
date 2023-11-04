@@ -1,0 +1,138 @@
+/* Default styles for larger screens */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; /* Dark background color */
+    color: #000000; /* White text color */
+    padding: 6px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header img {
+    object-fit: contain;
+    height: auto;
+    margin-top: 8px;
+    width: 110px;
+    display: flex;
+}
+
+.search-container {
+    flex: 1;
+    display: flex;
+    background-color: #fff;
+    margin: 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#search {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent; /* Transparent background */
+    color: #000000; /* White text color */
+}
+
+.search-button {
+    background-color: #f90;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#search-button:hover {
+    background-color: #d58d29;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.link-container {
+    margin-right: 20px;
+}
+
+.link-container a {
+    color: #ffffff; /* White text color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cart-icon {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    position: relative;
+}
+
+.cart-icon svg {
+    font-size: 29px;
+    color: #000000; /* White icon color */
+    margin-right: 10px;
+}
+
+#cart-count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(219, 219, 195);
+    color: #252222;
+    font-size: 12px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_option {
+    display: flex;
+    flex-direction: column;
+}
+
+.line-1 {
+    font-size: 10px;
+    color: grey;
+    font-weight: 800;
+}
+
+.line-2 {
+    font-size: 13px;
+    color: black;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .header {
+        padding: 6px 10px; /* Adjust padding for smaller screens */
+    }
+
+    .header img {
+        width: 90px; /* Reduce the logo size for smaller screens */
+    }
+
+    .search-container {
+        margin: 0 10px; /* Adjust margin for smaller screens */
+    }
+
+    #search {
+        padding: 8px; /* Adjust input padding for smaller screens */
+    }
+
+    .search-button {
+        padding: 8px 15px; /* Adjust button padding for smaller screens */
+    }
+
+    .link-container {
+        margin-right: 10px; /* Adjust margin for smaller screens */
+    }
+}

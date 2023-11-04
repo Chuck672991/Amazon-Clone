@@ -3,6 +3,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+<!-- Later it can be used 
+const firebaseConfig = {
+  apiKey: "AIzaSyDHHBqNatIuPwDKHtdvMfcKGBt_db1xndo",
+  authDomain: "clone-c4843.firebaseapp.com",
+  projectId: "clone-c4843",
+  storageBucket: "clone-c4843.appspot.com",
+  messagingSenderId: "136560170746",
+  appId: "1:136560170746:web:fa9b2068f889db4bf91b43",
+  measurementId: "G-WTKMLHC2C4"
+}; -->
 
 In the project directory, you can run:
 
